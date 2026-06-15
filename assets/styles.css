@@ -201,3 +201,62 @@ p{
     padding:24px;
   }
 }
+
+
+/* Title-to-subtitle spacing refinement across the entire website */
+.hero-copy h1 + p{
+  margin-top:34px;
+}
+.page-hero h1 + p{
+  margin-top:36px;
+}
+.section-head h2 + p,
+.center h2 + p,
+.blue-section h2 + p{
+  margin-top:30px;
+}
+.two-col h2 + p,
+.about-panel h2 + p,
+.cta-card h2 + p,
+.contact-card h3 + p,
+.info-card h3 + p,
+.service-card h3 + p,
+.pricing-card h3 + p,
+.value-item h3 + p{
+  margin-top:18px;
+}
+.section-head .lead,
+.center .lead{
+  margin-top:30px;
+}
+.eyebrow + h1,
+.eyebrow + h2{
+  margin-top:10px;
+}
+h1 + p,
+h2 + p{
+  margin-top:28px;
+}
+
+@media (max-width:720px){
+  .hero-copy h1 + p{
+    margin-top:28px;
+  }
+  .page-hero h1 + p{
+    margin-top:30px;
+  }
+  .section-head h2 + p,
+  .center h2 + p,
+  .blue-section h2 + p{
+    margin-top:24px;
+  }
+  .two-col h2 + p,
+  .about-panel h2 + p,
+  .cta-card h2 + p{
+    margin-top:20px;
+  }
+  h1 + p,
+  h2 + p{
+    margin-top:24px;
+  }
+}
