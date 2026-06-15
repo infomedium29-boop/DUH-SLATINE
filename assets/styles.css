@@ -72,3 +72,132 @@ h4{font-size:1rem}.container{width:min(1180px,calc(100% - 40px));margin-inline:a
 @media (max-width:390px){
   .brand-logo{width:170px;max-width:62vw;}
 }
+
+
+/* Professional typography & spacing refinement
+   Improved global line-height, heading balance and mobile readability. */
+h1{
+  line-height:1.10;
+  letter-spacing:-.035em;
+  text-wrap:balance;
+}
+h2{
+  line-height:1.15;
+  letter-spacing:-.034em;
+  text-wrap:balance;
+}
+h3{
+  line-height:1.34;
+  letter-spacing:-.024em;
+  text-wrap:balance;
+}
+h4{
+  line-height:1.38;
+  letter-spacing:-.012em;
+}
+p{
+  line-height:1.78;
+}
+.lead,
+.hero-copy p,
+.page-hero p,
+.section-head p,
+.center p{
+  line-height:1.82;
+}
+.hero-copy p{
+  margin-top:26px;
+}
+.section-head p{
+  margin-top:20px;
+}
+.page-hero p{
+  margin-top:26px;
+}
+.info-card h3,
+.service-card h3,
+.pricing-card h3,
+.contact-card h3,
+.value-item h3{
+  margin-bottom:14px;
+}
+.info-card p,
+.service-card p,
+.pricing-card p,
+.contact-card p,
+.about-panel p,
+.cta-card p,
+.value-item p,
+.check-list p,
+.process-list p{
+  line-height:1.74;
+}
+.two-col{
+  gap:84px;
+}
+.about-panel{
+  padding:34px;
+}
+.check-list{
+  gap:16px;
+}
+.check-list p{
+  padding:17px 20px;
+}
+.section{
+  padding:118px 0;
+}
+.section-head{
+  margin-bottom:50px;
+}
+
+@media (max-width:1050px){
+  h1{line-height:1.12;}
+  h2{line-height:1.16;}
+  .two-col{gap:56px;}
+}
+
+@media (max-width:720px){
+  h1{
+    font-size:clamp(2.25rem,11vw,3.7rem);
+    line-height:1.12;
+    letter-spacing:-.032em;
+  }
+  h2{
+    font-size:clamp(2rem,9.5vw,3.05rem);
+    line-height:1.17;
+    letter-spacing:-.031em;
+  }
+  h3{
+    line-height:1.36;
+  }
+  p,
+  .lead,
+  .hero-copy p,
+  .page-hero p,
+  .section-head p,
+  .center p{
+    line-height:1.76;
+  }
+  .page-hero{
+    padding:140px 0 76px;
+  }
+  .section{
+    padding:84px 0;
+  }
+  .section-head{
+    margin-bottom:38px;
+  }
+  .about-panel{
+    padding:24px;
+  }
+  .info-card,
+  .service-card,
+  .pricing-card,
+  .contact-form,
+  .contact-card,
+  .about-panel,
+  .cta-card{
+    padding:24px;
+  }
+}
