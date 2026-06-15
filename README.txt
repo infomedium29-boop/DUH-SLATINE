@@ -1,25 +1,17 @@
-DUH SLATINE - STATIČKI WEB SAJT
+Duh Slatine - statički web sajt
 
-Datoteke su spremne za GitHub i Cloudflare Pages.
+Upute:
+1. ZIP raspakirajte i sve datoteke prebacite u GitHub repozitorij.
+2. Nakon toga povežite repozitorij s Cloudflare Pages.
+3. Kontakt forma trenutno koristi FormSubmit:
+   - u datoteci kontakt.html zamijenite vasemail@example.com stvarnim e-mailom klijentice.
+4. WhatsApp linkovi trenutno koriste placeholder:
+   - u svim HTML datotekama zamijenite 385XXXXXXXXX stvarnim brojem bez plusa i razmaka.
+5. Logo placeholder "VAŠ LOGO" zamijenite stvarnim logom/certifikatom kada ga klijentica pošalje.
 
-VAŽNO PRIJE SLANJA KLIJENTICI:
-1. U svim HTML datotekama zamijeni:
-   vasemail@example.com -> stvarni e-mail klijentice
-   385XXXXXXXXX -> stvarni WhatsApp broj bez znaka + i bez razmaka
-
-2. Kontakt forma trenutno koristi FormSubmit:
-   action="https://formsubmit.co/vasemail@example.com"
-   Nakon prve poslane poruke FormSubmit može tražiti potvrdu e-mail adrese.
-
-3. Ako klijentica pošalje logo/fotografiju/certifikat, zamijeni tekst "VAŠ LOGO" i placeholder elemente.
-
-4. Upload na GitHub:
-   - kreiraj novi repository
-   - prebaci sve datoteke iz ovog foldera
-   - index.html mora ostati u root folderu
-
-5. Cloudflare Pages:
-   - poveži GitHub repository
-   - framework preset: None
-   - build command: prazno
-   - output directory: / ili prazno
+Popravci u ovoj verziji:
+- Uklonjeno presporo smooth scrollanje koje je stvaralo osjećaj kašnjenja i štekanja.
+- Navigacijska traka je sada uvijek vidljiva, centrirana i stabilna na desktop i mobile verziji.
+- Animacije su optimizirane da budu brže, lakše i profesionalnije.
+- Preloader se brže zatvara.
+- Mobilni izbornik je stabilniji i jasniji.
