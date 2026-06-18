@@ -437,6 +437,15 @@ h2 + p{
   color:#475569;
   line-height:1.75;
 }
+
+.footer-business-info{
+  flex-basis:100%;
+  line-height:1.6;
+}
+.footer-business-info strong{
+  color:#fff;
+}
+
 .footer-legal-links{
   display:flex;
   flex-wrap:wrap;
