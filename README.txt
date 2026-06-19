@@ -24,5 +24,3 @@ Za objavu na GitHub/Cloudflare Pages učitajte cijeli sadržaj mape duh-slatine-
 Izmjena: sjedište obrta je Zvonimirovac; naglašena potpuno digitalizirana online suradnja i mogućnost rada s klijentima bez obzira na lokaciju.
 
 Izmjena: dodano računovodstvo udruga, dvojno i jednostavno knjigovodstvo te cijena 500 € godišnje.
-
-Izmjena: dodana cijena za OPG u sustavu PDV-a: poslovne knjige od 125 € mjesečno.
