@@ -145,3 +145,91 @@
     });
   }
 })();
+
+
+// GDPR / Cookie consent
+(function(){
+  const storageKey = 'duhSlatineCookieConsent';
+  const banner = document.getElementById('cookieConsent');
+  const modal = document.getElementById('cookieModal');
+  const analyticsInput = document.getElementById('cookieAnalytics');
+  const marketingInput = document.getElementById('cookieMarketing');
+
+  function getConsent(){
+    try { return JSON.parse(localStorage.getItem(storageKey)); } catch(e) { return null; }
+  }
+
+  function setConsent(consent){
+    localStorage.setItem(storageKey, JSON.stringify({
+      necessary: true,
+      analytics: !!consent.analytics,
+      marketing: !!consent.marketing,
+      updatedAt: new Date().toISOString()
+    }));
+    window.dispatchEvent(new CustomEvent('cookieConsentUpdated', { detail: getConsent() }));
+  }
+
+  function showBanner(){
+    if (banner && !getConsent()) banner.hidden = false;
+  }
+
+  function hideBanner(){
+    if (banner) banner.hidden = true;
+  }
+
+  function openModal(){
+    const current = getConsent();
+    if (analyticsInput) analyticsInput.checked = !!(current && current.analytics);
+    if (marketingInput) marketingInput.checked = !!(current && current.marketing);
+    if (modal) modal.hidden = false;
+  }
+
+  function closeModal(){
+    if (modal) modal.hidden = true;
+  }
+
+  function acceptAll(){
+    setConsent({ analytics:true, marketing:true });
+    hideBanner();
+    closeModal();
+  }
+
+  function rejectAll(){
+    setConsent({ analytics:false, marketing:false });
+    hideBanner();
+    closeModal();
+  }
+
+  function saveSelection(){
+    setConsent({
+      analytics: analyticsInput ? analyticsInput.checked : false,
+      marketing: marketingInput ? marketingInput.checked : false
+    });
+    hideBanner();
+    closeModal();
+  }
+
+  document.addEventListener('click', function(e){
+    if (e.target.matches('[data-cookie-accept]')) acceptAll();
+    if (e.target.matches('[data-cookie-reject]')) rejectAll();
+    if (e.target.matches('[data-cookie-settings], .cookie-settings-link')) {
+      e.preventDefault();
+      openModal();
+    }
+    if (e.target.matches('[data-cookie-save]')) saveSelection();
+    if (e.target.matches('[data-cookie-close]')) closeModal();
+    if (e.target === modal) closeModal();
+  });
+
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape') closeModal();
+  });
+
+  showBanner();
+
+  // Primjer za buduće skripte:
+  // window.addEventListener('cookieConsentUpdated', function(event) {
+  //   if (event.detail.analytics) { /* ovdje učitati Google Analytics */ }
+  //   if (event.detail.marketing) { /* ovdje učitati Meta Pixel */ }
+  // });
+})();
