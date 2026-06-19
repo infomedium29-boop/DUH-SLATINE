@@ -480,42 +480,9 @@ h2 + p{
 
 .footer-company-info{
   width:100%;
-  color:rgba(255,255,255,.74);
-  font-size:.9rem;
-  line-height:1.65;
-  display:grid;
-  gap:4px;
-  max-width:780px;
+  color:rgba(255,255,255,.72);
+  font-size:.88rem;
+  line-height:1.6;
 }
-.footer-company-info strong{
-  color:#fff;
-  letter-spacing:.02em;
-}
-.footer-company-numbers{
-  display:flex;
-  flex-wrap:wrap;
-  gap:6px 18px;
-}
-.footer-company-numbers span,
-.footer-company-iban{
-  white-space:nowrap;
-  overflow-wrap:normal;
-  word-break:normal;
-}
-.footer-company-iban{
-  letter-spacing:.01em;
-}
-@media (max-width:520px){
-  .footer-company-info{
-    font-size:.82rem;
-    line-height:1.55;
-    gap:5px;
-  }
-  .footer-company-numbers{
-    display:grid;
-    gap:5px;
-  }
-  .footer-company-iban{
-    white-space:normal;
-  }
-}
+
+.footer-business-info{width:100%;display:grid;gap:6px;margin:0 0 10px 0;color:rgba(255,255,255,.86);line-height:1.45;max-width:760px}.footer-business-info strong{display:block;color:#fff;font-weight:900;font-size:1rem;letter-spacing:.01em}.footer-business-info span{display:block;font-size:.92rem;overflow-wrap:normal;word-break:normal}.footer-business-info span:nth-child(6),.footer-business-info span:nth-child(7){white-space:nowrap}.footer-bottom{align-items:flex-start}.footer-bottom>p,.footer-bottom>.footer-legal-links{width:100%}@media (max-width:720px){.footer-business-info{gap:7px;margin-bottom:12px;max-width:100%;line-height:1.35}.footer-business-info strong{font-size:1.02rem}.footer-business-info span{font-size:.95rem}.footer-business-info span:nth-child(6),.footer-business-info span:nth-child(7){font-size:.9rem;letter-spacing:-.02em;white-space:nowrap}.footer-business-info span:nth-child(7){font-size:.82rem;letter-spacing:-.055em}}
