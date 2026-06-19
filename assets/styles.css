@@ -477,3 +477,10 @@ h2 + p{
     padding:24px;
   }
 }
+
+.footer-company-info{
+  width:100%;
+  color:rgba(255,255,255,.72);
+  font-size:.88rem;
+  line-height:1.6;
+}
