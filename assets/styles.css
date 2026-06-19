@@ -480,7 +480,42 @@ h2 + p{
 
 .footer-company-info{
   width:100%;
-  color:rgba(255,255,255,.72);
-  font-size:.88rem;
-  line-height:1.6;
+  color:rgba(255,255,255,.74);
+  font-size:.9rem;
+  line-height:1.65;
+  display:grid;
+  gap:4px;
+  max-width:780px;
+}
+.footer-company-info strong{
+  color:#fff;
+  letter-spacing:.02em;
+}
+.footer-company-numbers{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px 18px;
+}
+.footer-company-numbers span,
+.footer-company-iban{
+  white-space:nowrap;
+  overflow-wrap:normal;
+  word-break:normal;
+}
+.footer-company-iban{
+  letter-spacing:.01em;
+}
+@media (max-width:520px){
+  .footer-company-info{
+    font-size:.82rem;
+    line-height:1.55;
+    gap:5px;
+  }
+  .footer-company-numbers{
+    display:grid;
+    gap:5px;
+  }
+  .footer-company-iban{
+    white-space:normal;
+  }
 }
