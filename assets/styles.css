@@ -486,3 +486,30 @@ h2 + p{
 }
 
 .footer-business-info{width:100%;display:grid;gap:6px;margin:0 0 10px 0;color:rgba(255,255,255,.86);line-height:1.45;max-width:760px}.footer-business-info strong{display:block;color:#fff;font-weight:900;font-size:1rem;letter-spacing:.01em}.footer-business-info span{display:block;font-size:.92rem;overflow-wrap:normal;word-break:normal}.footer-business-info span:nth-child(6),.footer-business-info span:nth-child(7){white-space:nowrap}.footer-bottom{align-items:flex-start}.footer-bottom>p,.footer-bottom>.footer-legal-links{width:100%}@media (max-width:720px){.footer-business-info{gap:7px;margin-bottom:12px;max-width:100%;line-height:1.35}.footer-business-info strong{font-size:1.02rem}.footer-business-info span{font-size:.95rem}.footer-business-info span:nth-child(6),.footer-business-info span:nth-child(7){font-size:.9rem;letter-spacing:-.02em;white-space:nowrap}.footer-business-info span:nth-child(7){font-size:.82rem;letter-spacing:-.055em}}
+
+/* Footer legal business data - clean mobile layout */
+.footer-company-info{
+  width:100%;
+  display:grid;
+  gap:6px;
+  color:rgba(255,255,255,.84);
+  font-size:.9rem;
+  line-height:1.45;
+  margin:0 0 12px 0;
+}
+.footer-company-info span{
+  display:block;
+  margin:0;
+  padding:0;
+}
+.footer-company-info span:nth-child(3),
+.footer-company-info span:nth-child(4),
+.footer-company-info span:nth-child(5){
+  white-space:nowrap;
+  word-break:keep-all;
+  overflow-wrap:normal;
+}
+@media (max-width:420px){
+  .footer-company-info{font-size:.86rem;line-height:1.42;gap:5px;}
+  .footer-company-info span:nth-child(5){font-size:.82rem;letter-spacing:-.015em;}
+}
