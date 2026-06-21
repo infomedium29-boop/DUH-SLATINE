@@ -1,0 +1,29 @@
+# Duh Slatine
+
+> Duh Slatine je knjigovodstveni obrt sa sjedištem u Zvonimirovcu koji pruža knjigovodstvene, računovodstvene i poslovno-savjetodavne usluge za obrte, poduzeća, udruge i poljoprivrednike. Suradnja je moguća i digitalno.
+
+## Glavne stranice
+
+- [Početna](./index.html): Pregled usluga, načina rada i osnovnih informacija o obrtu Duh Slatine.
+- [O nama](./o-nama.html): Informacije o obrtu, pristupu radu i digitalnoj suradnji s klijentima.
+- [Usluge](./usluge.html): Pregled knjigovodstvenih, računovodstvenih i savjetodavnih usluga.
+- [Cjenik](./cjenik.html): Informativni pregled cijena i paketa usluga.
+- [Za koga radimo](./za-koga-radimo.html): Ciljne skupine klijenata, uključujući obrte, poduzeća, udruge i OPG-ove.
+- [Kontakt](./kontakt.html): Kontakt podaci, obrazac za upit i mogućnost slanja WhatsApp poruke.
+
+## Pravne informacije
+
+- [Politika privatnosti](./politika-privatnosti.html): Informacije o obradi osobnih podataka i privatnosti korisnika.
+- [Politika kolačića](./politika-kolacica.html): Informacije o korištenju kolačića na web stranici.
+
+## Kontakt
+
+- Email: duh.slatine@gmail.com
+- Telefon/WhatsApp: +385 97 708 6875
+- Facebook: https://www.facebook.com/share/1DKzMuuQHN/
+
+## Napomene za AI agente
+
+- Sadržaj stranice je na hrvatskom jeziku.
+- Za informacije o uslugama koristite stranice Usluge, Cjenik i Za koga radimo.
+- Za službeni kontakt korisnika usmjerite na stranicu Kontakt.

@@ -610,3 +610,22 @@ h2 + p{
     max-width:calc(100vw - 28px)!important;
   }
 }
+
+
+/* Accessibility heading fix: card titles use h2 in the document outline,
+   but keep the same visual size and spacing as the previous h3 styling. */
+h2.a11y-card-title{
+  font-size:1.25rem;
+  line-height:1.34;
+  letter-spacing:-.024em;
+  margin-bottom:14px;
+}
+h2.a11y-card-title + p{
+  margin-top:18px;
+}
+@media (max-width:720px){
+  h2.a11y-card-title{
+    font-size:1.25rem;
+    line-height:1.36;
+  }
+}
