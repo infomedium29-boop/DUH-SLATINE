@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://duh-slatine.hr/sitemap.xml

@@ -4,17 +4,17 @@
 
 ## Glavne stranice
 
-- [Početna](./index.html): Pregled usluga, načina rada i osnovnih informacija o obrtu Duh Slatine.
-- [O nama](./o-nama.html): Informacije o obrtu, pristupu radu i digitalnoj suradnji s klijentima.
-- [Usluge](./usluge.html): Pregled knjigovodstvenih, računovodstvenih i savjetodavnih usluga.
-- [Cjenik](./cjenik.html): Informativni pregled cijena i paketa usluga.
-- [Za koga radimo](./za-koga-radimo.html): Ciljne skupine klijenata, uključujući obrte, poduzeća, udruge i OPG-ove.
-- [Kontakt](./kontakt.html): Kontakt podaci, obrazac za upit i mogućnost slanja WhatsApp poruke.
+- [Početna](.//): Pregled usluga, načina rada i osnovnih informacija o obrtu Duh Slatine.
+- [O nama](.//o-nama): Informacije o obrtu, pristupu radu i digitalnoj suradnji s klijentima.
+- [Usluge](.//usluge): Pregled knjigovodstvenih, računovodstvenih i savjetodavnih usluga.
+- [Cjenik](.//cjenik): Informativni pregled cijena i paketa usluga.
+- [Za koga radimo](.//za-koga-radimo): Ciljne skupine klijenata, uključujući obrte, poduzeća, udruge i OPG-ove.
+- [Kontakt](.//kontakt): Kontakt podaci, obrazac za upit i mogućnost slanja WhatsApp poruke.
 
 ## Pravne informacije
 
-- [Politika privatnosti](./politika-privatnosti.html): Informacije o obradi osobnih podataka i privatnosti korisnika.
-- [Politika kolačića](./politika-kolacica.html): Informacije o korištenju kolačića na web stranici.
+- [Politika privatnosti](.//politika-privatnosti): Informacije o obradi osobnih podataka i privatnosti korisnika.
+- [Politika kolačića](.//politika-kolacica): Informacije o korištenju kolačića na web stranici.
 
 ## Kontakt
 
