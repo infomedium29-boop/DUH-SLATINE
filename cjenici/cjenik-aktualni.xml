@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cjenik version="1.0" status="aktualni" published="2026-09-22" currency="EUR">
+  <pruzatelj>
+    <naziv>DUH SLATINE obrt za računovodstvo i ostale usluge vl. Ivana Golub</naziv>
+    <oib>72069916282</oib>
+    <adresa>Podravska 44, 33520 Zvonimirovac</adresa>
+    <web>https://duh-slatine.hr</web>
+  </pruzatelj>
+  <usluge>
+    <usluga id="pausalni-obrti">
+      <naziv>Paušalni obrti</naziv>
+      <cijena valuta="EUR" jedinica="mjesečno" od="false" na_upit="false">80.00</cijena>
+      <prikaz>80 € / mjesečno</prikaz>
+    </usluga>
+    <usluga id="obrti-pdv">
+      <naziv>Obrti u sustavu PDV-a</naziv>
+      <cijena valuta="EUR" jedinica="mjesečno" od="true" na_upit="false">150.00</cijena>
+      <prikaz>od 150 € / mjesečno</prikaz>
+    </usluga>
+    <usluga id="opg-pdv">
+      <naziv>OPG u sustavu PDV-a</naziv>
+      <cijena valuta="EUR" jedinica="mjesečno" od="true" na_upit="false">125.00</cijena>
+      <prikaz>od 125 € / mjesečno</prikaz>
+    </usluga>
+    <usluga id="poduzeca">
+      <naziv>Poduzeća</naziv>
+      <cijena valuta="EUR" jedinica="mjesečno" od="true" na_upit="false">250.00</cijena>
+      <prikaz>od 250 € / mjesečno</prikaz>
+    </usluga>
+    <usluga id="racunovodstvo-udruga">
+      <naziv>Računovodstvo udruga</naziv>
+      <cijena valuta="EUR" jedinica="godišnje" od="false" na_upit="false">500.00</cijena>
+      <prikaz>500 € / godišnje</prikaz>
+    </usluga>
+    <usluga id="natjecajna-dokumentacija">
+      <naziv>Natječajna dokumentacija</naziv>
+      <cijena valuta="EUR" jedinica="po dogovoru" od="false" na_upit="true"/>
+      <prikaz>Cijena na upit</prikaz>
+    </usluga>
+  </usluge>
+</cjenik>

@@ -1,0 +1,7 @@
+﻿id_usluge,naziv_usluge,cijena_eur,valuta,obracunska_jedinica,cijena_od,cijena_na_upit,prikaz_cijene
+pausalni-obrti,Paušalni obrti,80.00,EUR,mjesečno,false,false,80 € / mjesečno
+obrti-pdv,Obrti u sustavu PDV-a,150.00,EUR,mjesečno,true,false,od 150 € / mjesečno
+opg-pdv,OPG u sustavu PDV-a,125.00,EUR,mjesečno,true,false,od 125 € / mjesečno
+poduzeca,Poduzeća,250.00,EUR,mjesečno,true,false,od 250 € / mjesečno
+racunovodstvo-udruga,Računovodstvo udruga,500.00,EUR,godišnje,false,false,500 € / godišnje
+natjecajna-dokumentacija,Natječajna dokumentacija,,EUR,po dogovoru,false,true,Cijena na upit
