@@ -400,6 +400,9 @@
   "Dogovaramo opseg usluge i način digitalne razmjene dokumentacije.": "We agree on the scope of service and the method of digital document exchange.",
   "Dobivate jasnu ponudu i početak online suradnje bez potrebe za fizičkim dolaskom.": "You receive a clear quote and can start online cooperation without having to come in person.",
 
+  "Obrt nije u sustavu PDV-a.": "The business is not registered in the VAT system.",
+  "PDV se na navedene cijene ne obračunava sukladno članku 90. Zakona o PDV-u.": "VAT is not charged on the listed prices pursuant to Article 90 of the Croatian VAT Act.",
+
   "Digitalni cjenik": "Digital price list",
   "Cjenik dostupan i u strojno čitljivom formatu": "Price list also available in machine-readable format",
   "Aktualne cijene usluga dostupne su i kao strukturirane CSV i XML datoteke. Formati su namijenjeni jednostavnom pregledu, obradi i automatiziranom dohvaćanju podataka.": "Current service prices are also available as structured CSV and XML files. These formats are intended for easy review, processing and automated data retrieval.",

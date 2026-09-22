@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <cjenik version="1.0" status="aktualni" published="2026-09-22" currency="EUR">
   <pruzatelj>
     <naziv>DUH SLATINE obrt za računovodstvo i ostale usluge vl. Ivana Golub</naziv>
     <oib>72069916282</oib>
     <adresa>Podravska 44, 33520 Zvonimirovac</adresa>
     <web>https://duh-slatine.hr</web>
+    <pdv status="nije-u-sustavu" obracunava-se="false" pravna-osnova="clanak-90-zakona-o-pdv-u">PDV se na navedene cijene ne obračunava sukladno članku 90. Zakona o PDV-u.</pdv>
   </pruzatelj>
   <usluge>
     <usluga id="pausalni-obrti">
@@ -34,7 +35,7 @@
     </usluga>
     <usluga id="natjecajna-dokumentacija">
       <naziv>Natječajna dokumentacija</naziv>
-      <cijena valuta="EUR" jedinica="po dogovoru" od="false" na_upit="true"/>
+      <cijena valuta="EUR" jedinica="po dogovoru" od="false" na_upit="true" />
       <prikaz>Cijena na upit</prikaz>
     </usluga>
   </usluge>
