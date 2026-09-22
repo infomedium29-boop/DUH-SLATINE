@@ -680,3 +680,16 @@ h2 + p{
 .digital-file-card:hover .digital-file-arrow{transform:translate(2px,-2px);background:#dceaff}
 @media(max-width:900px){.digital-pricelist-card{grid-template-columns:1fr;gap:24px}.digital-pricelist-files{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){.digital-pricelist-wrap{margin-top:22px}.digital-pricelist-card{padding:22px;border-radius:24px}.digital-pricelist-files{grid-template-columns:1fr}.digital-pricelist-meta{display:grid;grid-template-columns:1fr}.digital-pricelist-meta span{justify-content:center}.digital-file-card{grid-template-columns:44px minmax(0,1fr) auto;padding:14px}.digital-file-icon{width:44px;height:44px}.digital-pricelist-card h2{font-size:2rem}}
+
+
+/* Digitalni cjenik v2 - compact download actions */
+.digital-pricelist-card{grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:42px;align-items:center}
+.digital-pricelist-actions{position:relative;z-index:1;display:grid;gap:12px;align-self:center}
+.digital-download-btn{display:flex;align-items:center;justify-content:center;min-height:54px;padding:15px 22px;border-radius:999px;font-size:.9rem;font-weight:900;letter-spacing:-.01em;text-align:center;transition:transform .25s ease,box-shadow .25s ease,background .25s ease,border-color .25s ease,color .25s ease}
+.digital-download-btn:hover{transform:translateY(-2px)}
+.digital-download-btn--primary{background:linear-gradient(135deg,var(--navy),#123b74);color:#fff;box-shadow:0 16px 34px rgba(7,26,51,.18)}
+.digital-download-btn--primary:hover{box-shadow:0 20px 40px rgba(7,26,51,.24)}
+.digital-download-btn--secondary{background:#fff;color:var(--navy);border:1px solid rgba(11,31,58,.14);box-shadow:0 12px 28px rgba(11,31,58,.07)}
+.digital-download-btn--secondary:hover{border-color:rgba(30,91,255,.28);color:var(--blue);box-shadow:0 16px 34px rgba(30,91,255,.10)}
+@media(max-width:900px){.digital-pricelist-card{grid-template-columns:1fr;gap:24px}.digital-pricelist-actions{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.digital-pricelist-actions{grid-template-columns:1fr}.digital-download-btn{width:100%;min-height:52px}}

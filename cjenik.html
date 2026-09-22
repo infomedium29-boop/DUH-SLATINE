@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="apple-touch-icon" href="assets/favicon.png">
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/styles.css?v=digital-cjenik-v2" />
   <link rel="alternate" type="text/csv" href="/cjenici/cjenik-aktualni.csv" title="Digitalni cjenik CSV">
   <link rel="alternate" type="application/xml" href="/cjenici/cjenik-aktualni.xml" title="Digitalni cjenik XML">
 </head>
@@ -141,21 +141,9 @@
           <span><strong>CSV + XML</strong> formati</span>
         </div>
       </div>
-      <div class="digital-pricelist-files">
-        <a class="digital-file-card" href="/cjenici/cjenik-aktualni.csv" download>
-          <span class="digital-file-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M7 3.75h6.8L18.25 8.2V20.25H7V3.75Z" stroke="currentColor" stroke-width="1.6"/><path d="M13.5 3.75v4.7h4.75" stroke="currentColor" stroke-width="1.6"/><path d="M9.4 13h6.4M9.4 16h4.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-          </span>
-          <span class="digital-file-copy"><small>Tablični format</small><strong>CSV cjenik</strong><em>Preuzmi .csv datoteku</em></span>
-          <span class="digital-file-arrow" aria-hidden="true">↗</span>
-        </a>
-        <a class="digital-file-card" href="/cjenici/cjenik-aktualni.xml" target="_blank" rel="noopener">
-          <span class="digital-file-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M7 3.75h6.8L18.25 8.2V20.25H7V3.75Z" stroke="currentColor" stroke-width="1.6"/><path d="M13.5 3.75v4.7h4.75" stroke="currentColor" stroke-width="1.6"/><path d="m10.5 13-1.8 1.7 1.8 1.7M14.8 13l1.8 1.7-1.8 1.7M13.4 12.4l-1.2 4.6" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </span>
-          <span class="digital-file-copy"><small>Strukturirani format</small><strong>XML cjenik</strong><em>Otvori .xml datoteku</em></span>
-          <span class="digital-file-arrow" aria-hidden="true">↗</span>
-        </a>
+      <div class="digital-pricelist-actions" aria-label="Preuzimanje digitalnog cjenika">
+        <a class="digital-download-btn digital-download-btn--primary" href="/cjenici/cjenik-aktualni.csv" download="duh-slatine-cjenik.csv">Preuzmi CSV cjenik</a>
+        <a class="digital-download-btn digital-download-btn--secondary" href="/cjenici/cjenik-aktualni.xml" download="duh-slatine-cjenik.xml">Preuzmi XML cjenik</a>
       </div>
     </section>
   </div>
